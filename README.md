@@ -1,7 +1,12 @@
 # Capy Racing
 
-- Authors: Shuang Lin, Carlos Garro
-- Emails: shuanglin3359@gmail.com, carlosgarro11@gmail.com
+### Authors
+
+- Shuang Lin
+    - shuanglin3359@gmail.com
+
+- Carlos Garro
+    - carlosgarro11@gmail.com
 
 ### CSE 264 - 010 - Final Project
 
