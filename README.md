@@ -1,20 +1,24 @@
-Shuang Lin & Carlos Garro 
+# Capy Racing
 
-CSE 264 - 010 
+- Authors: Shuang Lin, Carlos Garro
+- Emails: shuanglin3359@gmail.com, carlosgarro11@gmail.com
 
-Final Project
+### CSE 264 - 010 - Final Project
 
-Capy Racing
+An asynchronous multiplayer game. Compete with other players on the leaderboard to reach the longest distance ran.
 
-An asynchronous multiplayer game. Compete with other players to reach the longest distance ran.
-
-Instructions to Play
+### Instructions to Play
 1. Connect to server at the server ip and port
 2. Login with your player name
-3. Press < Space > to play
+3. Press < Spacebar > to play
 4. Race for the longest run!
 
-Development Ideas:
+### Development
+- Get node_modules from package.json
+- Drawn using Paint.NET
+- Vecteezy-License-Information in public/img for the cartoon background
+
+### Ideas
 
 add count down when you die
 Capy Racing Ideas
