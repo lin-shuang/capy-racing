@@ -1,0 +1,143 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    margin:0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #175955;
+}
+
+h1 { 
+    color: #81BA45; 
+    font-size: 100px; 
+    font-weight: normal; 
+    line-height: 48px; 
+    margin: 0 0 50px; 
+    text-align: center; 
+    text-shadow: 3px 3px 3px #082b34;
+}
+
+h2 { 
+    color: #81BA45; 
+    font-size: 50px; 
+    font-weight: normal; 
+    line-height: 48px; 
+    margin: 0 0 50px; 
+    text-align: center; 
+    text-shadow: 3px 3px 3px #082b34;
+}
+
+table{
+    width:100%;
+    background-color: #684D44;
+    color: #81BA45;
+    text-shadow: 2px 2px 2px #082b34;
+}
+
+.game{
+    margin: 0 auto;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    z-index: 1;
+    border: 10px solid #684D44;
+}
+.gameScore{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.score{
+    margin: 5px;
+    font-size: 30px;
+}
+.scoreCard{
+    margin: 5px;
+    font-size: 30px;
+}
+
+.forest{
+    --left: 0;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    bottom: 0;
+    left: calc(var(--left) *1%);
+}
+
+#clickable{
+    margin: 0 auto;
+    width: 500px;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: #81BA45;
+    text-shadow: 2px 2px 2px #082b34;
+}
+
+#border{
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #684D44;
+    border: 3px solid #684D44;
+}
+
+#chat_box{
+    text-align: left;
+}
+
+#capyRun{
+    --bottom: 15;
+    position: absolute;
+    left:1%;
+    height: 150px;
+    width: 125px;
+    bottom: calc(var(--bottom)*1%);
+    z-index: 2;
+}
+#capySit{
+    --bottom: 15;
+    position: absolute;
+    left:1%;
+    height: 150px;
+    width: 150px;
+    bottom: calc(var(--bottom)*1%);
+    z-index: 2;
+}
+
+#overlay {
+    display: none; z-index: 99;
+    width: 100%; height: 100%;
+    position: absolute; top: 0; left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.log{
+    position: absolute;
+    width: 75px;
+    height: 100px;
+    left: calc(var(--left)*1%);
+    bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+

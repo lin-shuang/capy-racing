@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="style.css">
+    <title>Capy Race</title>
+</head>
+<body>
+    <br>
+    <br>
+    <h1 id="title">Capy Racing</h1>
+    <h2 id="username">Please Login</h2>
+
+    <div id="border">
+        <div id="clickable" tabindex="1">
+            <div id="login">
+                <form id="form_login">
+                    <input id="input_text" type="text" placeholder="Username">
+                    <input id="input_login" type="button" value="Login">
+                </form>
+            </div>
+        
+            <div class="divs">
+                <table id="scores">
+                </table>
+            </div>
+
+            <br>
+            <div id="chat_div">
+                <div id="chat_box"></div>
+        
+                <form id="form_chat">
+                <input id="chat_text" type="text" placeholder="Chat">
+                <input id="chat_send" type="button" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="game" tabindex="0" data-game>
+        
+        <div id="overlay"></div>
+
+        <div class="gameScore">
+            <h2 class="scoreCard">Your Distance:</h2>
+            <h2 class="score">0</h2>
+        </div>
+
+        <image src="img/cartoon_forest.jpg" class="forest" data-forest></image>
+        <image src="img/cartoon_forest.jpg" class="forest" data-forest></image>
+        <image src="img/capy_sit.gif"  class="capy" id="capyRun" data-capy></image>
+    </div>
+    
+    <script src="/js/jquery-1.8.1.min.js"></script>
+    <script src="/js/socket.io.min.js"></script>
+    <script src="js/script.js" type="module"></script>
+</body>
+</html>

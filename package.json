@@ -1,0 +1,23 @@
+{
+  "name": "capyracing",
+  "version": "1.0.0",
+  "description": "Capybara Racing Game Final Project CSE 264",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSE-264/final-project-shl224.git"
+  },
+  "author": "Shuang Lin, Carlos Garro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSE-264/final-project-shl224/issues"
+  },
+  "homepage": "https://github.com/CSE-264/final-project-shl224#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}
