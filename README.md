@@ -1,5 +1,7 @@
 # Capy Racing
 
+- Currently, Singleplayer Only since the course servers are down.
+
 ### Authors
 
 - Shuang Lin
