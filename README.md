@@ -1,5 +1,6 @@
 # Capy Racing
 
+- [Play Here]([https://lin-shuang.github.io/capy-racing/])
 - Currently, Singleplayer Only since the course servers are down.
 
 ### Authors
